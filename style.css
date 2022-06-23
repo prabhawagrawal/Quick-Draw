@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+body{
+    margin-top: 15px;
+    font-family: 'Nunito', sans-serif;
+    background-color: aqua;
+    text-align: center;
+}
+
+canvas{
+    border-radius: 20px;
+    margin-top: 130px;
+    background-color: rgb(2, 19, 100);
+}
+
+#sketchToBeDrawn{
+    font-size: x-large;
+}
+
+#show_sketch{
+    background: transparent;
+    color: #343a40;
+    border-color: #343a40;
+    border-style: solid;
+    border-width: 1.25px;
+    height: 40px;
+    border-radius: 10px;
+    width: 110px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+#show_sketch:hover{
+    background-color: #343a40;
+    color: #fff;
+}
+
+#yourSketch, #confidence, #scoreLabel, #timerLabel{
+    font-size: 19px;
+}
+
+#scoreLabel{
+    margin-left: -1200px;
+}
+
+#timerLabel{
+    margin-top: -34px;
+    margin-left: 1130px;
+}
